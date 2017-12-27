@@ -10,27 +10,69 @@ import java.util.Set;
 
 public class HashMapTest {
 
-    public static void main(String[] args){
-        // 1. 声明1个 HashMap的对象
-        Map<String,Integer> map = new HashMap<String,Integer>();
-
-        // 2. 向HashMap添加数据（成对 放入 键 - 值对）
-        map.put("Android", 1);
-        map.put("Java", 2);
-        map.put("iOS", 3);
-        map.put("数据挖掘", 4);
-        map.put("产品经理", 5);
-
-        // 3.获得Map中所有key组成的set集合
-        Set<String> keySet = map.keySet();
-
-        // 4.通过遍历，获取对应键上的值
-        for (String key : keySet) {
-            //根据key获得指定的value
-            System.out.println(key + map.get(key));
+    final int hash(Object k) {
+        int h = hashSeed;
+        if (0 != h && k instanceof String) {
+            return sun.misc.Hashing.stringHash32((String) k);
         }
 
+        h ^= k.hashCode();
+        // 预处理hash值，避免较差的离散hash序列，导致table没有充分利用
+        h ^= (h >>> 20) ^ (h >>> 12);
+        return h ^ (h >>> 7) ^ (h >>> 4);
     }
+
+
+    /**
+     * put 函数源码分析
+     */
+    public V put(K key, V value) {
+
+        // 1. 判断2个异常情况
+        // 异常情况1：
+        // 若 哈希表无初始化(数组table为空)
+        // 则用构造时的阈值(初始容量)扩展table
+        if (table == EMPTY_TABLE) {
+            inflateTable(threshold);
+        }
+
+        // 异常情况2：
+        // 若 key == null，将该value加到table[0]的位置（本质：key为Null时，hash值 = 0）
+        // 该位置永远只有1个value，新传进来的value会覆盖旧的value
+        if (key == null)
+            return putForNullKey(value);
+
+        // 2. 根据键值计算hash值
+        int hash = hash(key);
+
+        // 3. 搜索该hash值中对应数组table中的下标索引
+        int i = indexFor(hash, table.length);
+
+        // 4. 循环遍历Entry数组，若该key对应的键值对已经存在，则用新的value取代旧的value
+        for (Entry<K,V> e = table[i]; e != null; e = e.next) {
+            Object k;
+            if (e.hash == hash && ((k = e.key) == key || key.equals(k))) {
+                V oldValue = e.value;
+                e.value = value;
+                e.recordAccess(this);
+                return oldValue; //并返回旧的value
+            }
+        }
+
+        modCount++;
+
+        // 5. 若在table[i]中没找到对应的key，那么就直接在该位置的链表中添加此Entry
+        addEntry(hash, key, value, i);
+        return null;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -115,6 +157,28 @@ public class HashMapTest {
             resize();
         afterNodeInsertion(evict);
         return null;
+    }
+
+    public static void main(String[] args){
+        // 1. 声明1个 HashMap的对象
+        Map<String,Integer> map = new HashMap<String,Integer>();
+
+        // 2. 向HashMap添加数据（成对 放入 键 - 值对）
+        map.put("Android", 1);
+        map.put("Java", 2);
+        map.put("iOS", 3);
+        map.put("数据挖掘", 4);
+        map.put("产品经理", 5);
+
+        // 3.获得Map中所有key组成的set集合
+        Set<String> keySet = map.keySet();
+
+        // 4.通过遍历，获取对应键上的值
+        for (String key : keySet) {
+            //根据key获得指定的value
+            System.out.println(key + map.get(key));
+        }
+
     }
 
 

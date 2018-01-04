@@ -1,100 +1,156 @@
 package scut.carson_ho.androidinterview;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * Created by Carson_Ho on 17/12/26.
  */
 
 public class HashMapTest {
 
-    public static void main(String[] args) {
-        // 1. 声明1个 HashMap的对象
-        Map<String, Integer> map = new HashMap<String, Integer>();
+    public class ThreadLocalTest {
 
-        // 2. 向HashMap添加数据（成对 放入 键 - 值对）
-        map.put("Android", 1);
-        map.put("Java", 2);
-        map.put("iOS", 3);
-        map.put("数据挖掘", 4);
-        map.put("产品经理", 5);
-
-        // 3. 获取 HashMap 的某个数据
-        System.out.println("key = 产品经理时的值为：" + map.get("产品经理"));
-
-        // 4. 获取 HashMap 的全部数据：遍历HashMap
-        // 核心思想：
-        // 步骤1：获得key-value对（Entry） 或 key 或 value的Set集合
-        // 步骤2：遍历上述Set集合(使用for循环 、 迭代器（Iterator）均可)
-        // 方法共有3种：分别针对 key-value对（Entry） 或 key 或 value
-
-        // 方法1：获得key-value的Set集合 再遍历
-
-        System.out.println("方法1");
-        // 1. 获得key-value对（Entry）的Set集合
-        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
-
-        // 2. 遍历Set集合，从而获取key-value
-        // 2.1 通过for循环
-        for(Map.Entry<String, Integer> entry : entrySet){
-            System.out.print(entry.getKey());
-            System.out.println(entry.getValue());
-        }
-        System.out.println("----------");
-        // 2.2 通过迭代器：先获得key-value对（Entry）的Iterator，再循环遍历
-        Iterator iter1 = entrySet.iterator();
-        while (iter1.hasNext()) {
-            // 遍历时，需先获取entry，再分别获取key、value
-            Map.Entry entry = (Map.Entry) iter1.next();
-            System.out.print((String) entry.getKey());
-            System.out.println((Integer) entry.getValue());
+        // 测试代码
+        public static void main(String[] args){
+            // 新开2个线程用于设置 & 获取 ThreadLoacl的值
+            MyRunnable runnable = new MyRunnable();
+            new Thread(runnable, "线程1").start();
+            new Thread(runnable, "线程2").start();
         }
 
+        // 线程类
+        public static class MyRunnable implements Runnable {
 
-        // 方法2：获得key的Set集合 再遍历
-        System.out.println("方法2");
+            // 创建ThreadLocal & 初始化
+            private ThreadLocal<String> threadLocal = new ThreadLocal<String>(){
+                @Override
+                protected String initialValue() {
+                    return "初始化值";
+                }
+            };
 
-        // 1. 获得key的Set集合
-        Set<String> keySet = map.keySet();
+            @Override
+            public void run() {
 
-        // 2. 遍历Set集合，从而获取key，再获取value
-        // 2.1 通过for循环
-        for(String key : keySet){
-            System.out.print(key);
-            System.out.println(map.get(key));
+                // 运行线程时，分别设置 & 获取 ThreadLoacl的值
+                String name = Thread.currentThread().getName();
+                threadLocal.set(name + "的threadLocal"); // 设置值 = 线程名
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(name + "：" + threadLocal.get());
+            }
         }
-
-        System.out.println("----------");
-
-        // 2.2 通过迭代器：先获得key的Iterator，再循环遍历
-        Iterator iter2 = keySet.iterator();
-        String key = null;
-        while (iter2.hasNext()) {
-            key = (String)iter2.next();
-            System.out.print(key);
-            System.out.println(map.get(key));
-        }
-
-
-        // 方法3：获得value的Set集合 再遍历
-        System.out.println("方法3");
-
-        // 1. 获得value的Set集合
-        Collection valueSet = map.values();
-
-        // 2. 遍历Set集合，从而获取value
-        // 2.1 获得values 的Iterator
-        Iterator iter3 = valueSet.iterator();
-        // 2.2 通过遍历，直接获取value
-        while (iter3.hasNext()) {
-            System.out.println(iter3.next());
-        }
-
     }
+
+
+// ThreadLocal的源码
+
+    public class ThreadLocal<T> {
+
+	...
+
+        /**
+         * 设置ThreadLocal的值：ThreadLocalMap的键Key = 线程
+         **/
+        public void set(T value) {
+
+            // 1. 获得当前线程
+            Thread t = Thread.currentThread();
+
+            // 2. 获取该线程的ThreadLocalMap对象 ->>分析1
+            ThreadLocalMap map = getMap(t);
+
+            // 3. 若该线程的ThreadLocalMap对象已存在，则替换该Map里的值；否则创建1个ThreadLocalMap对象
+            if (map != null)
+                map.set(this, value);// 替换
+            else
+                createMap(t, value);// 创建->>分析2
+        }
+
+        /**
+         * 获取ThreadLocal的值：ThreadLocalMap的值 = 该线程设置的存储在ThreadLocal变量的值
+         **/
+        public T get() {
+
+            // 1. 获得当前线程
+            Thread t = Thread.currentThread();
+
+            // 2. 获取该线程的ThreadLocalMap对象
+            ThreadLocalMap map = getMap(t);
+
+            // 3. 若该线程的ThreadLocalMap对象已存在，则直接获取该Map里的值；否则创建1个ThreadLocalMap对象
+            if (map != null) {
+                ThreadLocalMap.Entry e = map.getEntry(this);
+                if (e != null)
+                    return (T)e.value; // 直接获取值
+            }
+            return setInitialValue(); // 初始化
+        }
+
+        /**
+         * 初始化ThreadLocal的值
+         **/
+        private T setInitialValue() {
+
+            T value = initialValue();
+
+            // 1. 获得当前线程
+            Thread t = Thread.currentThread();
+
+            // 2. 获取该线程的ThreadLocalMap对象
+            ThreadLocalMap map = getMap(t);
+
+            // 3. 若该线程的ThreadLocalMap对象已存在，则直接替换该值；否则则创建
+            if (map != null)
+                map.set(this, value); // 替换
+            else
+                createMap(t, value); // 创建->>分析2
+            return value;
+        }
+
+
+        /**
+         * 分析1：获取当前线程的ThreadLocalMap对象
+         **/
+        ThreadLocalMap getMap(Thread t) {
+            return t.threadLocals;
+        }
+
+        /**
+         * 分析2：创建当前线程的ThreadLocalMap对象
+         **/
+        void createMap(Thread t, T firstValue) {
+            // 新创建1个ThreadLocalMap对象 放入到 Thread类的threadLocals对象引用中
+            t.threadLocals = new ThreadLocalMap(this, firstValue);
+            // 即 threadLocals变量 属于 Thread类中 ->> 分析3
+        }
+
+
+    ...
+    }
+
+    /**
+     * 分析3：Thread类 源码分析
+     **/
+
+    public class Thread implements Runnable {
+       ...
+
+        ThreadLocal.ThreadLocalMap threadLocals = null;
+        // 即 Thread类持有threadLocals变量
+        // threadLocals变量是线程类实例化后，每个对象拥有的独立的变量
+        // threadLocals变量在 ThreadLocal对象中 通过set（） 或 get（）进行操作
+
+
+
+       ...
+    }
+
+
+
+
+
 
 
 }

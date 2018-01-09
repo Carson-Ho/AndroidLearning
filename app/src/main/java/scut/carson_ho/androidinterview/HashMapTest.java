@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class Test {
+public class HashMapTest {
 
     public static void main(String[] args) throws IOException {
         // 设置输入源 & 输出地 = 文件

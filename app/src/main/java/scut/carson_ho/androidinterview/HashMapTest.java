@@ -1,48 +1,57 @@
 package scut.carson_ho.androidinterview;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
+import android.content.Intent;
+import android.os.Looper;
+import android.support.annotation.WorkerThread;
 
 public class HashMapTest {
 
-    public static void main(String[] args) throws IOException {
-        // 设置输入源 & 输出地 = 文件
-        String infile = "C:\\copy.sql";
-        String outfile = "C:\\copy.txt";
+    @Override
+    public void onCreate() {
+        super.onCreate();
 
-        // 1. 获取数据源 和 目标传输地的输入输出流（此处以数据源 = 文件为例）
-        FileInputStream fin = new FileInputStream(infile);
-        FileOutputStream fout = new FileOutputStream(outfile);
+        // 1. 通过实例化andlerThread新建线程 & 启动；故 使用IntentService时，不需额外新建线程
+        // HandlerThread继承自Thread，内部封装了 Looper
+        HandlerThread thread = new HandlerThread("IntentService[" + mName + "]");
+        thread.start();
 
-        // 2. 获取数据源的输入输出通道
-        FileChannel fcin = fin.getChannel();
-        FileChannel fcout = fout.getChannel();
+        // 2. 获得工作线程的 Looper & 维护自己的工作队列
+        mServiceLooper = thread.getLooper();
 
-        // 3. 创建缓冲区对象
-        ByteBuffer buff = ByteBuffer.allocate(1024);
+        // 3. 新建mServiceHandler & 绑定上述获得Looper
+        // 新建的Handler 属于工作线程 ->>分析1
+        mServiceHandler = new ServiceHandler(mServiceLooper);
+    }
 
-        while (true) {
 
-            // 4. 从通道读取数据 & 写入到缓冲区
-            // 注：若 以读取到该通道数据的末尾，则返回-1
-            int r = fcin.read(buff);
-            if (r == -1) {
-                break;
-            }
-            // 5. 传出数据准备：调用flip()方法
-            buff.flip();
+    /**
+     * 分析1：ServiceHandler源码分析
+     **/
+    private final class ServiceHandler extends Handler {
 
-            // 6. 从 Buffer 中读取数据 & 传出数据到通道
-            fcout.write(buff);
+        // 构造函数
+        public ServiceHandler(Looper looper) {
+            super(looper);
+        }
 
-            // 7. 重置缓冲区
-            buff.clear();
+        // IntentService的handleMessage（）把接收的消息交给onHandleIntent()处理
+        @Override
+        public void handleMessage(Message msg) {
 
-          }
+            // onHandleIntent 方法在工作线程中执行
+            // onHandleIntent() = 抽象方法，使用时需重写 ->>分析2
+            onHandleIntent((Intent)msg.obj);
+            // 执行完调用 stopSelf() 结束服务
+            stopSelf(msg.arg1);
 
         }
+    }
+
+    /**
+     * 分析2： onHandleIntent()源码分析
+     * onHandleIntent() = 抽象方法，使用时需重写
+     **/
+    @WorkerThread
+    protected abstract void onHandleIntent(Intent intent);
 
 }

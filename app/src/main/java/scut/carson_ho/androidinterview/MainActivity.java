@@ -8,8 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = "carson：";
     public static final String TAG1 = "carson：";
-    public static final String TAG2 = "carson：";
-    public static final String TAG3 = "carson：";
+    
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

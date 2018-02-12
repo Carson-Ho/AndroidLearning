@@ -1,6 +1,5 @@
 package scut.carson_ho.androidinterview;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -20,15 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        String device_model = Build.MODEL; // 设备型号
-        String version_sdk = Build.VERSION.SDK; // 设备SDK版本
-        String version_release = Build.VERSION.RELEASE; // 设备的系统版本
-
-        System.out.println(device_model +version_sdk);
-        System.out.println(version_sdk);
-        System.out.println(version_release);
+        
         button1 = (Button)findViewById(R.id.button1);
         button2 = (Button)findViewById(R.id.button2);
         myLayout = (LinearLayout)findViewById(R.id.my_layout);

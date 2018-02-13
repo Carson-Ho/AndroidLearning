@@ -11,9 +11,9 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-
     Button button1,button2;
     ViewGroup myLayout;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -62,5 +62,14 @@
 [泛型相关：特点、List<String>能否转为List<Object>、Java泛型与C++泛型区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E6%B3%9B%E5%9E%8B%E7%9B%B8%E5%85%B3%EF%BC%9A%E7%89%B9%E7%82%B9%E3%80%81List%3CString%3E%E8%83%BD%E5%90%A6%E8%BD%AC%E4%B8%BAList%3CObject%3E%E3%80%81Java%E6%B3%9B%E5%9E%8B%E4%B8%8EC%2B%2B%E6%B3%9B%E5%9E%8B%E5%8C%BA%E5%88%AB.md "泛型相关：特点、List<String>能否转为List<Object>、Java泛型与C++泛型区别.md")
 
 
+### 1.5 其他
+
+[Java 1.7、Java 1.8新特性](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B6%E4%BB%96/Java%201.7%E3%80%81Java%201.8%E6%96%B0%E7%89%B9%E6%80%A7.md "Java 1.7、Java 1.8新特性.md")
+
+[XML解析方式 & 与JSON对比](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B6%E4%BB%96/XML%E8%A7%A3%E6%9E%90%E6%96%B9%E5%BC%8F%20%26%20%E4%B8%8EJSON%E5%AF%B9%E6%AF%94.md "XML解析方式 & 与JSON对比.md")
+
+[解决生产 & 消费者问题的5种实现](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B6%E4%BB%96/%E8%A7%A3%E5%86%B3%E7%94%9F%E4%BA%A7%20%26%20%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98%E7%9A%845%E7%A7%8D%E5%AE%9E%E7%8E%B0.md "解决生产 & 消费者问题的5种实现.md")
+
+[错误类型：Exception与Error包结构、OOM、SOF](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B6%E4%BB%96/%E9%94%99%E8%AF%AF%E7%B1%BB%E5%9E%8B%EF%BC%9AException%E4%B8%8EError%E5%8C%85%E7%BB%93%E6%9E%84%E3%80%81OOM%E3%80%81SOF.md "错误类型：Exception与Error包结构、OOM、SOF.md")
 
 

@@ -40,4 +40,9 @@
 
 [CountDownLatch](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/CountDownLatch.md "CountDownLatch.md")
 
+### 1.4 机制
 
+[线程池ThreadPool 使用 & 原理](https://www.jianshu.com/p/0e4a5e70bf0e)
+
+
+[JNI相关](https://www.jianshu.com/p/38859f881888)

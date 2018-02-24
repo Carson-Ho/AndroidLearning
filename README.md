@@ -27,5 +27,17 @@
 
 [关键字：transient、volatile](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B7%E4%BD%93%E7%B1%BB%20%26%20%E6%96%B9%E6%B3%95/%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%9Atransient%E3%80%81volatile.md "关键字：transient、volatile.md")
 
+### 1.3 集合
+[Collection相关：包结构、与Collections的区别、Collections与 Arrays 的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/Collection%E7%9B%B8%E5%85%B3.md "Collection相关.md")
+
+[List、Set、Queue、Stack、Map的特点与用法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/List%E3%80%81Set%E3%80%81Queue%E3%80%81Stack%E3%80%81Map%E7%9A%84%E7%89%B9%E7%82%B9%E4%B8%8E%E7%94%A8%E6%B3%95.md "List、Set、Queue、Stack、Map的特点与用法.md")
+
+[Vector、ArrayList、LinkedList的存储特性 & 区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/Vector%E3%80%81ArrayList%E3%80%81LinkedList%E7%9A%84%E5%AD%98%E5%82%A8%E7%89%B9%E6%80%A7%20%26%20%E5%8C%BA%E5%88%AB.md "Vector、ArrayList、LinkedList的存储特性 & 区别.md")
+
+[Map相关：子类继承、对比、HashCode（）、HashMap原理、HashSet](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/Map%E7%9B%B8%E5%85%B3%EF%BC%9A%E5%AD%90%E7%B1%BB%E7%BB%A7%E6%89%BF%E3%80%81%E5%AF%B9%E6%AF%94%E3%80%81HashCode%EF%BC%88%EF%BC%89%E3%80%81HashMap%E5%8E%9F%E7%90%86%E3%80%81HashSet.md "Map相关：子类继承、对比、HashCode（）、HashMap原理、HashSet.md")
+
+[BlockingQueue & 实现类](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/BlockingQueue%20%26%20%E5%AE%9E%E7%8E%B0%E7%B1%BB.md "BlockingQueue & 实现类.md")
+
+[CountDownLatch](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/CountDownLatch.md "CountDownLatch.md")
 
 

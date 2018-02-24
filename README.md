@@ -1,5 +1,5 @@
 # 1. Java
-### 1.2 语言特性
+### 1.1 语言特性
 [面向对象的3个特征 & 含义](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%843%E4%B8%AA%E7%89%B9%E5%BE%81%20%26%20%E5%90%AB%E4%B9%89.md)
 
 [多态的实现原理](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/%E5%A4%9A%E6%80%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md)
@@ -12,7 +12,7 @@
 
 [对比 Java、C++](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/%E5%AF%B9%E6%AF%94%20Java%E3%80%81C%2B%2B.md)
 
-### 1.3 具体类 & 方法
+### 1.2 具体类 & 方法
 [Override与Overload的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B7%E4%BD%93%E7%B1%BB%20%26%20%E6%96%B9%E6%B3%95/Override%E4%B8%8EOverload%E7%9A%84%E5%8C%BA%E5%88%AB.md "Override与Overload的区别.md")
 
 [static关键字（静态类、静态变量与普通的区别）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B7%E4%BD%93%E7%B1%BB%20%26%20%E6%96%B9%E6%B3%95/static%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%88%E9%9D%99%E6%80%81%E7%B1%BB%E3%80%81%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E4%B8%8E%E6%99%AE%E9%80%9A%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%89.md "static关键字（静态类、静态变量与普通的区别）.md")

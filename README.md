@@ -41,8 +41,26 @@
 [CountDownLatch](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E9%9B%86%E5%90%88/CountDownLatch.md "CountDownLatch.md")
 
 ### 1.4 机制
+[实现多线程的两种方法：Thread与Runable](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9AThread%E4%B8%8ERunable.md "实现多线程的两种方法：Thread与Runable.md")
 
 [线程池ThreadPool 使用 & 原理](https://www.jianshu.com/p/0e4a5e70bf0e)
 
+[线程局部变量ThreadLocal相关](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/ThreadLocal%E7%9B%B8%E5%85%B3.md "ThreadLocal相关.md")
+
+[线程同步的方法：sychronized、lock、reentrantLock](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9Asychronized%E3%80%81lock%E3%80%81reentrantLock.md "线程同步的方法：sychronized、lock、reentrantLock.md")
+
+[锁的等级：方法锁、对象锁、类锁](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E9%94%81%E7%9A%84%E7%AD%89%E7%BA%A7%EF%BC%9A%E6%96%B9%E6%B3%95%E9%94%81%E3%80%81%E5%AF%B9%E8%B1%A1%E9%94%81%E3%80%81%E7%B1%BB%E9%94%81.md "锁的等级：方法锁、对象锁、类锁.md")
+
+[wait（）和sleep（）区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/wait%EF%BC%88%EF%BC%89%E5%92%8Csleep%EF%BC%88%EF%BC%89%E5%8C%BA%E5%88%AB.md "wait（）和sleep（）区别.md")
+
+[反射](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E5%8F%8D%E5%B0%84.md "反射.md")
 
 [JNI相关](https://www.jianshu.com/p/38859f881888)
+
+[IO 和 NIO.](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/IO%20%E5%92%8C%20NIO.md "IO 和 NIO.md")
+
+[泛型相关：特点、List<String>能否转为List<Object>、Java泛型与C++泛型区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E6%9C%BA%E5%88%B6/%E6%B3%9B%E5%9E%8B%E7%9B%B8%E5%85%B3%EF%BC%9A%E7%89%B9%E7%82%B9%E3%80%81List%3CString%3E%E8%83%BD%E5%90%A6%E8%BD%AC%E4%B8%BAList%3CObject%3E%E3%80%81Java%E6%B3%9B%E5%9E%8B%E4%B8%8EC%2B%2B%E6%B3%9B%E5%9E%8B%E5%8C%BA%E5%88%AB.md "泛型相关：特点、List<String>能否转为List<Object>、Java泛型与C++泛型区别.md")
+
+
+
+

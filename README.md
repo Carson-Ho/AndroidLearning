@@ -94,3 +94,7 @@
 [Handler相关：机制原理、发送方式的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Handler%E7%9B%B8%E5%85%B3%EF%BC%9A%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86%E3%80%81%E5%8F%91%E9%80%81%E6%96%B9%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB.md "Handler相关：机制原理、发送方式的区别.md")
 
 [多线程使用场景 & 特点（继承Thread类 / 实现Runnable、AsycTask、IntentService、HandlerThread）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BB%A7%E6%89%BFThread%E7%B1%BB%20:%20%E5%AE%9E%E7%8E%B0Runnable%E3%80%81AsycTask%E3%80%81IntentService%E3%80%81HandlerThread%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8E%E7%89%B9%E7%82%B9.md "继承Thread类 : 实现Runnable、AsycTask、IntentService、HandlerThread的使用场景与特点.md")
+
+### 2.3 基础使用
+[Sqlite的基本操作](https://www.jianshu.com/p/8e3f294e2828)
+[6种布局特点 & 对比](https://www.jianshu.com/p/4fac6304d872)

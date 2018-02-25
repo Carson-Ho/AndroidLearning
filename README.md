@@ -135,4 +135,11 @@
 
 
 ### 2.6 补充技术
+
 [NDK](https://www.jianshu.com/p/38859f881888)
+
+[热补丁修复](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%A1%A5%E5%85%85%E6%8A%80%E6%9C%AF/%E7%83%AD%E8%A1%A5%E4%B8%81%E4%BF%AE%E5%A4%8D.md "热补丁修复.md")
+
+[插件化](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%A1%A5%E5%85%85%E6%8A%80%E6%9C%AF/%E6%8F%92%E4%BB%B6%E5%8C%96.md "插件化.md")
+
+[MVC、MVP、MVVM](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%A1%A5%E5%85%85%E6%8A%80%E6%9C%AF/MVC%E3%80%81MVP%E3%80%81MVVM.md "MVC、MVP、MVVM.md")

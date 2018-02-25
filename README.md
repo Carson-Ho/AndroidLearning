@@ -134,5 +134,5 @@
 [内存优化 & 泄露、布局优化、绘制优化](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E5%86%85%E5%AD%98%EF%BC%88%E5%90%AB%E6%B3%84%E9%9C%B2%EF%BC%89%E3%80%81%E5%B8%83%E5%B1%80%E3%80%81%E7%BB%98%E5%88%B6%E4%BC%98%E5%8C%96.md)
 
 
-
-
+### 2.6 补充技术
+[NDK](https://www.jianshu.com/p/38859f881888)

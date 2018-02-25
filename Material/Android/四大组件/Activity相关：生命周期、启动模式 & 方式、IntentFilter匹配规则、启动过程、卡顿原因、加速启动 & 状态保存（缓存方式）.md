@@ -16,7 +16,7 @@ https://www.jianshu.com/p/399e83d02e33
 
 - 如下图
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-2a2ec6069979f7d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-b6244df4e6c21315.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 - 区别
@@ -81,7 +81,8 @@ startActivity(intent);
 
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-d052fd1a02f5b4a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-fe3b3dce5ed610b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-ee7646a45eac46e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 6. 如何加速启动Activity
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-19fa54eef58f1744.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

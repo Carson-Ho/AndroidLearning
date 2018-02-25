@@ -116,6 +116,19 @@
 
 [Parcelable、Serializable的简介 & 区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/Parcelable%E3%80%81Serializable%E7%9A%84%E7%AE%80%E4%BB%8B%20%26%20%E5%8C%BA%E5%88%AB.md "Parcelable、Serializable的简介 & 区别.md")
 
+### 2.4 自定义View
+[自定义View流程](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View%E6%B5%81%E7%A8%8B.md "自定义View流程.md")
+
+[事件分发机制](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6.md "事件分发机制.md")
+
+[动画类型 & 特点](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/%E5%8A%A8%E7%94%BB%E7%B1%BB%E5%9E%8B%20%26%20%E7%89%B9%E7%82%B9.md "动画类型 & 特点.md")
+
+[布局性能优化：标签（include、viewstub、merge）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/%E5%B8%83%E5%B1%80%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%9A%E6%A0%87%E7%AD%BE%EF%BC%88include%E3%80%81viewstub%E3%80%81merge%EF%BC%89.md "布局性能优化：标签（include、viewstub、merge）.md")
+
+[Bitmap：4种解码方式属性、内存优化](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/Bitmap%EF%BC%9A4%E7%A7%8D%E8%A7%A3%E7%A0%81%E6%96%B9%E5%BC%8F%E5%B1%9E%E6%80%A7%E3%80%81%E5%86%85%E5%AD%98%E4%BC%98%E5%8C%96.md "Bitmap：4种解码方式属性、内存优化.md")
+
+[Window、Activity、DecorView 和 ViewRoot的关系](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%87%AA%E5%AE%9A%E4%B9%89View/Window%E3%80%81Activity%E3%80%81DecorView%20%E5%92%8C%20ViewRoot%E7%9A%84%E5%85%B3%E7%B3%BB.md "Window、Activity、DecorView 和 ViewRoot的关系.md")
+
 
 
 

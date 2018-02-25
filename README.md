@@ -96,5 +96,29 @@
 [多线程使用场景 & 特点（继承Thread类 / 实现Runnable、AsycTask、IntentService、HandlerThread）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BB%A7%E6%89%BFThread%E7%B1%BB%20:%20%E5%AE%9E%E7%8E%B0Runnable%E3%80%81AsycTask%E3%80%81IntentService%E3%80%81HandlerThread%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8E%E7%89%B9%E7%82%B9.md "继承Thread类 : 实现Runnable、AsycTask、IntentService、HandlerThread的使用场景与特点.md")
 
 ### 2.3 基础使用
-[Sqlite的基本操作](https://www.jianshu.com/p/8e3f294e2828)
+
+
+
+[5种数据存储形式](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/5%E7%A7%8D%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%BD%A2%E5%BC%8F.md "5种数据存储形式.md")
+
+[软引用、弱引用的应用场景](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E8%BD%AF%E5%BC%95%E7%94%A8%E3%80%81%E5%BC%B1%E5%BC%95%E7%94%A8%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md "软引用、弱引用的应用场景.md")
+
+[文件缓存方法：内存缓存 > 硬盘缓存 > 数据库缓存（SQLite） > 文件缓存](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E6%96%87%E4%BB%B6%E7%BC%93%E5%AD%98%E6%96%B9%E6%B3%95%EF%BC%9A%E5%86%85%E5%AD%98%E7%BC%93%E5%AD%98%20%3E%20%E7%A1%AC%E7%9B%98%E7%BC%93%E5%AD%98%20%3E%20%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98%EF%BC%88SQLite%EF%BC%89%20%3E%20%E6%96%87%E4%BB%B6%E7%BC%93%E5%AD%98.md "文件缓存方法：内存缓存 > 硬盘缓存 > 数据库缓存（SQLite） > 文件缓存.md")
+
+[长连接、心跳、推送](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E9%95%BF%E8%BF%9E%E6%8E%A5%E3%80%81%E5%BF%83%E8%B7%B3%E3%80%81%E6%8E%A8%E9%80%81.md "长连接、心跳、推送.md")
+
 [6种布局特点 & 对比](https://www.jianshu.com/p/4fac6304d872)
+
+
+[Sqlite的基本操作](https://www.jianshu.com/p/8e3f294e2828)
+
+[Asset目录 与 res:raw,res:drawable目录的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/Asset%E7%9B%AE%E5%BD%95%20%E4%B8%8E%20res:raw%2Cres:drawable%E7%9B%AE%E5%BD%95%E7%9A%84%E5%8C%BA%E5%88%AB.md "Asset目录 与 res:raw,res:drawable目录的区别.md")
+
+[Parcelable、Serializable的简介 & 区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/Parcelable%E3%80%81Serializable%E7%9A%84%E7%AE%80%E4%BB%8B%20%26%20%E5%8C%BA%E5%88%AB.md "Parcelable、Serializable的简介 & 区别.md")
+
+
+
+
+
+
+

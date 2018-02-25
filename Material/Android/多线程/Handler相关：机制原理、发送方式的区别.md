@@ -13,6 +13,7 @@ Looper、Handler、MessageQueue
   4. 随着`Looper`对象的无限消息循环，不断从消息队列中取出`Handler`发送的消息 & 分发到对应`Handler`，最终回调`Handler.handleMessage()` 或 `Runnable.run（）`处理消息
 
 
+
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-62eb790fbcdff4cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 3. 发送消息的2种方式： Handler.post（）、Handler.sendMessage（）

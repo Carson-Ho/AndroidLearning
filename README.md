@@ -145,3 +145,16 @@
 [MVC、MVP、MVVM](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E8%A1%A5%E5%85%85%E6%8A%80%E6%9C%AF/MVC%E3%80%81MVP%E3%80%81MVVM.md "MVC、MVP、MVVM.md")
 
 ### 2.7 其他
+[设计模式](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md "设计模式.md")
+
+开源分析：[Glide](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/Glide.md "Glide.md")、[Okhttp](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/Okhttp.md "Okhttp.md")、[Retrofit.](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/Retrofit.md "Retrofit.md")、[RxJava](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/RxJava.md "RxJava.md")、[V-layout](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E8%BF%99%E9%87%8C%E8%BF%99%E9%87%8CV-layout.md "这里这里V-layout.md")
+
+[断点续传](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0.md "断点续传.md")
+
+[8.0、7.0、6.0、5.0新特性](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/8.0%E3%80%817.0%E3%80%816.0%E3%80%815.0%E6%96%B0%E7%89%B9%E6%80%A7.md "8.0、7.0、6.0、5.0新特性.md")
+
+[App的启动流程](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/App%E7%9A%84%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.md "App的启动流程.md")
+
+[Zygote进程启动过程](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/Zygote%E8%BF%9B%E7%A8%8B%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.md "Zygote进程启动过程.md")
+
+[一键退出App](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E4%B8%80%E9%94%AE%E9%80%80%E5%87%BAApp.md "一键退出App.md")

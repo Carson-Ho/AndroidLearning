@@ -14,7 +14,9 @@ Looper、Handler、MessageQueue
 
 
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-62eb790fbcdff4cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-494e0b26a2724087.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-ab8502405221b5c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 3. 发送消息的2种方式： Handler.post（）、Handler.sendMessage（）
 

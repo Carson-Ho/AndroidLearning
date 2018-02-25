@@ -72,4 +72,25 @@
 
 [错误类型：Exception与Error包结构、OOM、SOF](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Java/%E5%85%B6%E4%BB%96/%E9%94%99%E8%AF%AF%E7%B1%BB%E5%9E%8B%EF%BC%9AException%E4%B8%8EError%E5%8C%85%E7%BB%93%E6%9E%84%E3%80%81OOM%E3%80%81SOF.md "错误类型：Exception与Error包结构、OOM、SOF.md")
 
+***
 
+
+
+# 2. Android
+### 2.1 四大组件
+[四大组件简介](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6%E7%AE%80%E4%BB%8B.md "四大组件简介.md")
+
+[Activity相关：生命周期、启动模式 & 方式 & 过程、加速启动 、IntentFilter匹配规则、卡顿原因、状态保存（缓存方式）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Activity%E7%9B%B8%E5%85%B3%EF%BC%9A%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E3%80%81%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%20%26%20%E6%96%B9%E5%BC%8F%E3%80%81IntentFilter%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99%E3%80%81%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E3%80%81%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0%E3%80%81%E5%8A%A0%E9%80%9F%E5%90%AF%E5%8A%A8%20%26%20%E7%8A%B6%E6%80%81%E4%BF%9D%E5%AD%98%EF%BC%88%E7%BC%93%E5%AD%98%E6%96%B9%E5%BC%8F%EF%BC%89.md "Activity相关：生命周期、启动模式 & 方式、IntentFilter匹配规则、启动过程、卡顿原因、加速启动 & 状态保存（缓存方式）.md")
+
+[Broadcast：注册广播的两种方式.](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Broadcast%EF%BC%9A%E6%B3%A8%E5%86%8C%E5%B9%BF%E6%92%AD%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F.md "Broadcast：注册广播的两种方式.md")
+
+[ContentProvider：使用、Intent、Binder](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/ContentProvider%EF%BC%9A%E4%BD%BF%E7%94%A8%E3%80%81Intent%E3%80%81Binder.md "ContentProvider：使用、Intent、Binder.md")
+
+[Service：简介、生命周期、IntentService](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Service%EF%BC%9A%E7%AE%80%E4%BB%8B%E3%80%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E3%80%81IntentService.md "Service：简介、生命周期、IntentService.md")
+
+### 2.2 多线程
+[AsyncTask：原理 & 使用](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/AsyncTask%EF%BC%9A%E5%8E%9F%E7%90%86%20%26%20%E4%BD%BF%E7%94%A8.md "AsyncTask：原理 & 使用.md")
+
+[Handler相关：机制原理、发送方式的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Handler%E7%9B%B8%E5%85%B3%EF%BC%9A%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86%E3%80%81%E5%8F%91%E9%80%81%E6%96%B9%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB.md "Handler相关：机制原理、发送方式的区别.md")
+
+[多线程使用场景 & 特点（继承Thread类 / 实现Runnable、AsycTask、IntentService、HandlerThread）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BB%A7%E6%89%BFThread%E7%B1%BB%20:%20%E5%AE%9E%E7%8E%B0Runnable%E3%80%81AsycTask%E3%80%81IntentService%E3%80%81HandlerThread%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8E%E7%89%B9%E7%82%B9.md "继承Thread类 : 实现Runnable、AsycTask、IntentService、HandlerThread的使用场景与特点.md")

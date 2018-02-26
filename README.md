@@ -164,6 +164,31 @@
 [一键退出App](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E4%B8%80%E9%94%AE%E9%80%80%E5%87%BAApp.md "一键退出App.md")
 
 # 3. 数据结构
+[数组 & 链表](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8.md "数组与链表.md")
+
+[栈 & 队列](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88%20%26%20%E9%98%9F%E5%88%97.md "栈 & 队列.md")
+
+[字符串](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%AD%97%E7%AC%A6%E4%B8%B2.md "字符串.md")
+
+[Hash函数构造 & 解决冲突](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Hash%E5%87%BD%E6%95%B0%E7%8B%97%E4%BB%94%20%26%20%20%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81.md "Hash函数狗仔 &  解决冲突.md")
+
+[各种排序原理 & 性能对比](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%90%84%E7%A7%8D%E6%8E%92%E5%BA%8F%E5%8E%9F%E7%90%86%20%26%20%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94.md "各种排序原理 & 性能对比.md")
+
+[快排的partition（）、归并的Merge（）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%BF%AB%E6%8E%92%E7%9A%84partition%EF%BC%88%EF%BC%89%E3%80%81%E5%BD%92%E5%B9%B6%E7%9A%84Merge%EF%BC%88%EF%BC%89.md "快排的partition（）、归并的Merge（）.md")
+
+[冒泡、快排的改进](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%86%92%E6%B3%A1%E3%80%81%E5%BF%AB%E6%8E%92%E7%9A%84%E6%94%B9%E8%BF%9B.md "冒泡、快排的改进.md")
+
+[二分查找 & 变种](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%20%26%20%E5%8F%98%E7%A7%8D.md "二分查找 & 变种.md")
+
+[各种树：二叉树类、多路查找树（含B+树）、红黑树、哈夫曼树](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%90%84%E7%A7%8D%E6%A0%91%EF%BC%9A%E4%BA%8C%E5%8F%89%E6%A0%91%E7%B1%BB%E3%80%81%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91%EF%BC%88%E5%90%ABB%2B%E6%A0%91%EF%BC%89%E3%80%81%E7%BA%A2%E9%BB%91%E6%A0%91%E3%80%81%E5%93%88%E5%A4%AB%E6%9B%BC%E6%A0%91.md "各种树：二叉树类、多路查找树（含B+树）、红黑树、哈夫曼树.md")
+
+[二叉树的前、中、后序遍历：递归 & 非递归 写法，层序遍历算法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E3%80%81%E4%B8%AD%E3%80%81%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%EF%BC%9A%E9%80%92%E5%BD%92%20%26%20%E9%9D%9E%E9%80%92%E5%BD%92%20%E5%86%99%E6%B3%95%EF%BC%8C%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%E7%AE%97%E6%B3%95.md "二叉树的前、中、后序遍历：递归 & 非递归 写法，层序遍历算法.md")
+
+[图的BFS与DFS算法，最小生成树prim算法、最短路径Dijkstra算法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9B%BE%E7%9A%84BFS%E4%B8%8EDFS%E7%AE%97%E6%B3%95%EF%BC%8C%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91prim%E7%AE%97%E6%B3%95%E3%80%81%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84Dijkstra%E7%AE%97%E6%B3%95.md "图的BFS与DFS算法，最小生成树prim算法、最短路径Dijkstra算法.md")
+
+[KMP算法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/KMP%E7%AE%97%E6%B3%95.md "KMP算法.md")
+
+[动态规划、贪心、分治算法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E3%80%81%E8%B4%AA%E5%BF%83%E3%80%81%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95.md "动态规划、贪心、分治算法.md")
 
 # 4. 算法
 

@@ -191,6 +191,7 @@
 [动态规划、贪心、分治算法](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E3%80%81%E8%B4%AA%E5%BF%83%E3%80%81%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95.md "动态规划、贪心、分治算法.md")
 
 # 4. 算法
+[具体请看文章](https://github.com/Carson-Ho/AlgorithmLearning)
 
 # 5. JVM
 

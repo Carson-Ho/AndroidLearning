@@ -105,6 +105,8 @@
 
 [文件缓存方法：内存缓存 > 硬盘缓存 > 数据库缓存（SQLite） > 文件缓存](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E6%96%87%E4%BB%B6%E7%BC%93%E5%AD%98%E6%96%B9%E6%B3%95%EF%BC%9A%E5%86%85%E5%AD%98%E7%BC%93%E5%AD%98%20%3E%20%E7%A1%AC%E7%9B%98%E7%BC%93%E5%AD%98%20%3E%20%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98%EF%BC%88SQLite%EF%BC%89%20%3E%20%E6%96%87%E4%BB%B6%E7%BC%93%E5%AD%98.md "文件缓存方法：内存缓存 > 硬盘缓存 > 数据库缓存（SQLite） > 文件缓存.md")
 
+[跨进程通信](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E8%B7%A8%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1.md "跨进程通信.md")
+
 [长连接、心跳、推送](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/%E9%95%BF%E8%BF%9E%E6%8E%A5%E3%80%81%E5%BF%83%E8%B7%B3%E3%80%81%E6%8E%A8%E9%80%81.md "长连接、心跳、推送.md")
 
 [6种布局特点 & 对比](https://www.jianshu.com/p/4fac6304d872)

@@ -160,3 +160,22 @@
 [为什么不能在子线程操作UI](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%83%BD%E5%9C%A8%E5%AD%90%E7%BA%BF%E7%A8%8B%E6%93%8D%E4%BD%9CUI.md "为什么不能在子线程操作UI.md")
 
 [一键退出App](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/Android/%E5%85%B6%E4%BB%96/%E4%B8%80%E9%94%AE%E9%80%80%E5%87%BAApp.md "一键退出App.md")
+
+# 3. 数据结构
+
+# 4. 算法
+
+# 5. JVM
+
+# 6. 计算机基础
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-1038e41df408c144.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+体系结构、TCP & 其他：简书
+
+[HTTP](https://www.jianshu.com/p/a6d086a3997d)
+
+[Socket](https://www.jianshu.com/p/089fb79e308b)
+
+
+

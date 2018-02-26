@@ -17,4 +17,4 @@
 
 - 解决方案介绍
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-f08bf64a51acd185.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-c8f3366e1e573554.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

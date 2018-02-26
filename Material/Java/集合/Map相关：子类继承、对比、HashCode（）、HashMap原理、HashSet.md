@@ -66,6 +66,10 @@ public class ConcurrentHashMap<K, V> extends AbstractMap<K, V>
 
 
 # 6.  HashMap的原理（put（）、get（））
+http://blog.csdn.net/carson_ho/article/details/79373026
+http://blog.csdn.net/carson_ho/article/details/79373134
+
+
 - put
 根据key的hashCode找到对应数组的位置
 遍历该位置的链表，查找key是否已经存在

@@ -180,6 +180,17 @@
 [Socket](https://www.jianshu.com/p/089fb79e308b)
 
 # 7. 操作系统
+[进程、线程区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E3%80%81%E7%BA%BF%E7%A8%8B%E5%8C%BA%E5%88%AB.md "进程、线程区别.md")
+
+[（IPC）跨进程通信方式](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%EF%BC%88IPC%EF%BC%89%E8%B7%A8%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.md "（IPC）跨进程通信方式.md")
+
+[死锁的必要条件、处理方式（含银行家算法）](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%AD%BB%E9%94%81%E7%9A%84%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F.md "死锁的必要条件、处理方式.md")
+
+[虚拟内存](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98.md "虚拟内存.md")
+
+[虚拟地址、逻辑地址、线性地址、物理地址的区别](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%99%9A%E6%8B%9F%E5%9C%B0%E5%9D%80%E3%80%81%E9%80%BB%E8%BE%91%E5%9C%B0%E5%9D%80%E3%80%81%E7%BA%BF%E6%80%A7%E5%9C%B0%E5%9D%80%E3%80%81%E7%89%A9%E7%90%86%E5%9C%B0%E5%9D%80%E7%9A%84%E5%8C%BA%E5%88%AB.md "虚拟地址、逻辑地址、线性地址、物理地址的区别.md")
+
+[页存储、段存储、段页存储](https://github.com/Carson-Ho/AndroidInterview/blob/master/Material/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E9%A1%B5%E5%AD%98%E5%82%A8%E3%80%81%E6%AE%B5%E5%AD%98%E5%82%A8%E3%80%81%E6%AE%B5%E9%A1%B5%E5%AD%98%E5%82%A8.md "页存储、段存储、段页存储.md")
 
 
 

@@ -1,19 +1,17 @@
 # 1. equals与==的区别
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-c2638eaf56b5ac04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-eff8e7467c425887.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 附：
 
 ```
- /**
+  /**
    * 附1：Object的equals（）原函数实现
    * 作用 = 比较的是对象的内存地址（内部实现实际 是 “==”，故作用同 “==”作用）
    */
   public boolean equals (Object obj）{
     return （this == obj）；
      }
-
-
 
  /**
    * 附2：复写了Object equals（）原函数的String 类中的equals
@@ -28,7 +26,7 @@ public boolean equals(Object obj){
 
   // 若不指向同一地址，则判断规则为：
       // 1. 类型是否相同（ 即，传入对象是否是String类型，采用 instanceof 比较）
-      // 2. 字符串序列是否相同（String类 内部存储 采用char[]实现）
+      // 2. 内容是否相同 = 字符串序列是否相同（String类 内部存储 采用char[]实现）
       if (anObject instanceof String) {
 
                   String anotherString = (String)anObject;
@@ -50,6 +48,7 @@ public boolean equals(Object obj){
            return false;
         }
 ```
+
 # 2. Switch能否用string做参数？
 - 在`Java7` 前，不支持；在Java 7后，支持
 >`Java7` 前支持的类型：枚举、`byte`、`short`、`char`、`int` & 对应的封装类

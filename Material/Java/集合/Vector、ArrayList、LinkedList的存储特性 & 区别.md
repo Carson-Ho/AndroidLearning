@@ -1,8 +1,7 @@
-均是 `List`接口的实现类。
+# 1. 存储特性
 
-- 存储特性
+![示意图](http://upload-images.jianshu.io/upload_images/944365-687dcb94f22f7705.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-ea20a5766e896de6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+# 2. 异同
 
-- 异同
-![示意图](http://upload-images.jianshu.io/upload_images/944365-0533202613b96435.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-b111d52a8df7e94c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

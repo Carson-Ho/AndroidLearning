@@ -1,48 +1,51 @@
 # 1. `Map`接口的子类继承图
 >注：`Map`接口 与 `Collection` 接口无关
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-bf4b3a6cb95d7983.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-33093ba53e052dd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
 ```
 // 为了更好理解各类的关系，下面附上：各类的定义图
-//HashMap 
+// HashMap 
 public class HashMap<K,V> 
     extends AbstractMap<K,V> 
     implements Map<K,V>, Cloneable, Serializable{} 
  
-//LinkedHashMap 
+// LinkedHashMap 
 public class LinkedHashMap<K,V> 
     extends HashMap<K,V> 
     implements Map<K,V>{}
 
-//TreeMap 
+// TreeMap 
 public class TreeMap<K,V> 
     extends AbstractMap<K,V> 
     implements NavigableMap<K,V>, Cloneable, java.io.Serializable{} 
 
-//Hashtable 
+// Hashtable 
 public class Hashtable<K,V> 
     extends Dictionary<K,V> 
     implements Map<K,V>, Cloneable, java.io.Serializable {} 
 
-//ConcurrentHashMap 
+// ConcurrentHashMap 
 public class ConcurrentHashMap<K, V> extends AbstractMap<K, V> 
         implements ConcurrentMap<K, V>, Serializable {} 
 ```
 
-
-
 # 2. HashMap 与 LinkedHashMap、TreeMap的区别
-![示意图](http://upload-images.jianshu.io/upload_images/944365-009b5c5bdb2b9a73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-d5e9d83cb1dd662f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 3. HashMap 与 Hashtable 的区别
-![示意图](http://upload-images.jianshu.io/upload_images/944365-f64b4db7642e1486.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-84ac966cd49e8fff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
 
 # 4. HashMap 与 ConcurrentHashMap 的区别
-![示意图](http://upload-images.jianshu.io/upload_images/944365-fc2ad92b9bf2e72b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-eab2bdec80d61e6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 #  5. HashCode作用
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-14444e0456c60bbe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -66,17 +69,20 @@ public class ConcurrentHashMap<K, V> extends AbstractMap<K, V>
 
 
 # 6.  HashMap的原理（put（）、get（））
-http://blog.csdn.net/carson_ho/article/details/79373026
-http://blog.csdn.net/carson_ho/article/details/79373134
+- 1.7：http://blog.csdn.net/carson_ho/article/details/79373026
+ 
+- 1.8 ：http://blog.csdn.net/carson_ho/article/details/79373134
 
 
-- put
-根据key的hashCode找到对应数组的位置
-遍历该位置的链表，查找key是否已经存在
-若 key已经存在，则直接更新value，并将旧的value作为函数返回
-若 key不存在，则通过头插法，将新的键值对放入当前链表的第一个位置（即数组中）
+### 6.1 put
 
-- get
+根据key计算hashCode，从而找到对应数组的位置
+遍历该位置的数组 & 链表，查找key是否已存在
+若 key已存在，则直接更新value & 返回旧的value
+若 key不存在，先判断空间是否足够（不足则扩容）；若足够，通过头插法，将新的键值对放入当前链表的第一个位置（即数组中）
+
+### 6.2 get
+
 首先根据key的hashCode找到对应数组的位置
 然后遍历该位置的链表，查找key是否已经存在
 
@@ -90,5 +96,5 @@ http://blog.csdn.net/carson_ho/article/details/79373134
 
 - 判断过程过程
 调用obj.hashCode()，得到对应的hashcode值。
-如果集合中没有存储这个hashcode对应的对象，则直接添加。
-如果集合中已经存储了这个hashcode对应的对象，则调用equals判断是否对象相同。若相同，则直接更新
+若集合中没有存储这个hashcode对应的对象，则直接添加。
+若集合中已经存储了这个hashcode对应的对象，则调用equals判断是否对象相同。若不相同，则直接更新

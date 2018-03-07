@@ -138,7 +138,11 @@ public class Test{
 ```
 ***
 # 6. 特点
-![示意图](http://upload-images.jianshu.io/upload_images/944365-cd123fe7ed41334c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](http://upload-images.jianshu.io/upload_images/944365-afe57fc30465511a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+注：原子性、可见性、有序性的定义
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-5285e9a40e83a041.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ***
 

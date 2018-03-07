@@ -3,7 +3,8 @@ http://blog.qianxuefeng.com/article/153
 
 ### 1. 简介
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-f30c79c9e6d99d23.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-145c6c3977434c99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 2. 使用
 #### 2.1 创建ThreadLocal变量

@@ -39,4 +39,4 @@
 # 3. 与RecyclerView的区别
 Google推出代替ListView的滑动组件，其功能更加强大、支持定制样式更加丰富、扩展性高
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-32181e7fc382bfc3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](https://upload-images.jianshu.io/upload_images/944365-c356074dbf7bb0b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

@@ -10,7 +10,8 @@
 
 
 ### 2. 内存优化方式
-![示意图](http://upload-images.jianshu.io/upload_images/944365-1ac379cec2a945af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![示意图](https://upload-images.jianshu.io/upload_images/944365-3cdf9eff7c1ead93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 注：因存储位置不同，所以图片资源释放方式不同
 - 优化方案

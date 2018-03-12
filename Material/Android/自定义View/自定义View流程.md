@@ -60,3 +60,18 @@
 
 - 详细讲解
 请看文章：[（4）自定义View Draw过程- 最易懂的自定义View原理系列](https://www.jianshu.com/p/95afeb7c8335)
+
+
+# 3. 自定义View的步骤
+### 步骤1：实现Measure、Layout、Draw流程
+主要是复写方法：`onMeasure()`、`onLayout()`、`onDraw()`
+
+- 从View的工作流程（`measure`过程、`layout`过程、`draw`过程）来看，若要实现自定义`View`，根据自定义View的种类不同（单一`View` / `ViewGroup`），需自定义实现不同的方法
+>主要是：`onMeasure()`、`onLayout()`、`onDraw()`，具体如下
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-0082de4f47f2d0c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 步骤2：自定义属性
+1. 在values目录下创建自定义属性的xml文件
+2. 在自定义View的构造方法中加载自定义XML文件 & 解析属性值
+3. 在布局文件中使用自定义属性

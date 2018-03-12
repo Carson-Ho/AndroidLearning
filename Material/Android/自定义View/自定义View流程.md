@@ -54,7 +54,7 @@
 
 - 具体流程
 
-![示意图](http://upload-images.jianshu.io/upload_images/944365-53962940989bb451.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](https://upload-images.jianshu.io/upload_images/944365-2c28edbbb3f1936f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-c9d3cd1d746be319.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

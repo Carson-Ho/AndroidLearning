@@ -1,15 +1,16 @@
-①点击桌面App图标，Launcher进程采用Binder IPC向system_server进程发起startActivity请求；
+![示意图](https://upload-images.jianshu.io/upload_images/944365-a78148f5777ebf3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-②system_server进程接收到请求后，向zygote进程发送创建进程的请求；
+点击桌面App图标：
+1. Launcher进程通过BInder驱动向system_server进程发起启动Applicaiton进程的请求
+2. system_server进程 向 Zygote进程发送创建进程的请求
+3. Zygote进程fork出新的子进程，即App进程
+4. App进程启动首个Activity的过程，具体如下：
 
-③Zygote进程fork出新的子进程，即App进程；
+![示意图](https://upload-images.jianshu.io/upload_images/944365-8746d7ac74220415.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-④App进程，通过Binder IPC向sytem_server进程发起attachApplication请求；
-
-⑤system_server进程在收到请求后，进行一系列准备工作后，再通过binder IPC向App进程发送scheduleLaunchActivity请求；
-
-⑥App进程的binder线程（ApplicationThread）在收到请求后，通过handler向主线程发送LAUNCH_ACTIVITY消息；
-
-⑦主线程在收到Message后，通过发射机制创建目标Activity，并回调Activity.onCreate()等方法。
-
-⑧到此，App便正式启动，开始进入Activity生命周期，执行完onCreate/onStart/onResume方法，UI渲染结束后便可以看到App的主界面。
+当请求启动Activity时：
+1. Launcher进程通过Binder驱动向ActivityManagerService类发起startActivity请求；
+2. ActivityManagerService类接收到请求后，向ActivityStack类发送启动Activity的请求；
+3. ActivityStack类记录需启动的Activity的信息 & 调整Activity栈 将其置于栈顶、通过 Binder驱动 将Activity的启动信息传递到ApplicationThread线程中（即Binder线程）
+4. ApplicationThread线程通过Handler将Activity的启动信息发送到主线程ActivityThread 
+5. 主线程ActivityThread类接收到该信息 & 请求后，通过ClassLoader机制加载相应的Activity类，最终调用Activity的onCreate（），最后 启动完毕

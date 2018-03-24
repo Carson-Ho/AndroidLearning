@@ -105,3 +105,12 @@ startActivity(intent);
 - 具体说明
 
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-305b102f39ac27ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+# 8. Activity 调用Fragment
+
+1.接口
+2.Bundle
+3.广播
+https://juejin.im/entry/59746af7f265da6c34337d2e

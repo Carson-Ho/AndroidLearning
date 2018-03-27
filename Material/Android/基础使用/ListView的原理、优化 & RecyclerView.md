@@ -40,3 +40,9 @@
 Google推出代替ListView的滑动组件，其功能更加强大、支持定制样式更加丰富、扩展性高
 
 ![示意图](https://upload-images.jianshu.io/upload_images/944365-c356074dbf7bb0b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 4. RecyclerView的下拉加载和上拉更新怎么实现，比如下拉的橡皮筋效果
+https://www.jianshu.com/p/3bf125b4917d
+
+
+![示意图](https://upload-images.jianshu.io/upload_images/944365-92154f8c1b155453.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

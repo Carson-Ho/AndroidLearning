@@ -16,6 +16,10 @@ https://www.jianshu.com/p/399e83d02e33
 
 - 如下图
 
+
+![示意图](http://upload-images.jianshu.io/upload_images/944365-b6244df4e6c21315.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ![示意图](http://upload-images.jianshu.io/upload_images/944365-b6244df4e6c21315.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 

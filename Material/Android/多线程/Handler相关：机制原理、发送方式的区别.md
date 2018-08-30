@@ -1,4 +1,4 @@
-https://www.jianshu.com/p/f0b23ee5a922
+完整内容请看文章：[Android Handler：关于Handler异步通信机制的所有知识都在这里了！（使用、源码 & 工作原理）](https://blog.csdn.net/carson_ho/article/details/51290360)
 
 
 

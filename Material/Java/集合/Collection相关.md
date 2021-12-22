@@ -1,5 +1,5 @@
 # 1. 包结构
-![示意图](http://upload-images.jianshu.io/upload_images/944365-54d2e58cc9be769e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![示意图](https://img-blog.csdnimg.cn/img_convert/74f6b4f7b71567eaa8502839d681a6e7.png)
 
 
 # 2. 与Collections的区别

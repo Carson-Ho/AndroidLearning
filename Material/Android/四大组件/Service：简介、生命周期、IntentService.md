@@ -1,12 +1,13 @@
 # 1. Service相关
-https://www.jianshu.com/p/d963c55c3ab9
+https://carsonho.blog.csdn.net/article/details/53160049
+
 # 2. 生命周期
-https://www.jianshu.com/p/8d0cde35eb10
+https://carsonho.blog.csdn.net/article/details/53160137
 
 2种启动方法的区别：生命周期调用过程不同、（功能上）无法操作Service、销毁时刻）
 
 # 3. IntentService & 区别
-https://www.jianshu.com/p/8a3c44a9173a
+https://carsonho.blog.csdn.net/article/details/90437126
 
 
 # 4. 如何保证Service不被杀死
